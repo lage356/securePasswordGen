@@ -20,6 +20,7 @@ Welcome to the Secure Password Generator website! This application helps you to 
 
 ## Example
 
+![PasswordGen](Screenshot_passwordGen.png)
 
 
 ## Security

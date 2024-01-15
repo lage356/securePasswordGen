@@ -26,38 +26,38 @@ function generatePassword() {
   }
 
   var specialChar = window.prompt(
-    "Would you like to include special characters || Type: Y or N"
+    "Would you like to include special characters || Type: y or n"
   );
   if (specialChar !== "y" && specialChar !== "n") {
     window.alert("Select a valid option");
     specialChar = window.prompt(
-      "Would you like to include special characters || Type: Y or N"
+      "Would you like to include special characters || Type: y or n"
     );
   }
   var upperCasep = window.prompt(
-    "Would you like to include uppercase characters || Type: Y or N"
+    "Would you like to include uppercase characters || Type: y or n"
   );
   if (upperCasep !== "y" && upperCasep !== "n") {
     window.alert("Select a valid option");
     upperCasep = window.prompt(
-      "Would you like to include uppercase characters || Type: Y or N"
+      "Would you like to include uppercase characters || Type: y or n"
     );
   }
   var lowerCasep = window.prompt(
-    "Would you like to include lowercase characters || Type: Y or N"
+    "Would you like to include lowercase characters || Type: y or n"
   );
   if (lowerCasep !== "y" && lowerCasep !== "n") {
     window.alert("Select a valid option");
     lowerCasep = window.prompt(
-      "Would you like to include lowercase characters || Type: Y or N"
+      "Would you like to include lowercase characters || Type: y or n"
     );
   }
   var numerValuep = window.prompt(
-    "Would you like to include numbers || Type: Y or N"
+    "Would you like to include numbers || Type: y or n"
   );
   if (numerValuep !== "y" && numerValuep !== "n") {
     numerValuep = window.prompt(
-      "Would you like to include numbers || Type: Y or N"
+      "Would you like to include numbers || Type: y or n"
     );
   }
 
